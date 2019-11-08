@@ -1,0 +1,539 @@
+country_decisions = {
+
+	kingdom_of_jerusalem = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_jerusalem }
+			NOT = { exists = KOJ }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			religion = catholic
+			NOT = { has_reform = celestial_empire }
+			OR = {
+				owns = 379
+				AND = {
+					ai = no
+					tag = TOU
+				}
+				AND = { 
+					ai = no
+					tag = GUY
+				}
+				AND = {
+					ai = no
+					tag = AMG
+				}
+				AND = {
+					ai = no
+					tag = ORL
+				}
+				AND = {
+					ai = no
+					tag = NEV
+				}
+				AND = { 
+					ai = no
+					tag = BUR
+				}
+				AND = {
+					ai = no
+					tag = PRO
+				}
+				AND = {
+					ai = no
+					tag = FRA
+				}
+				AND = {
+					ai = no
+					tag = BRI
+				}
+				AND = {
+					ai = no
+					tag = HAB
+				}	
+				AND = {
+					ai = no 
+					tag = LAN
+				}
+				AND = {
+					ai = no
+					tag = GEN
+				}
+				AND = {
+					ai = no
+					tag = MLO
+				}
+				AND = { 
+					ai = no
+					tag = SAV
+				}
+				AND = {
+					ai = no
+					tag = FER
+				}
+				AND = { 
+					ai = no
+					tag = VEN
+				}
+				AND = {
+					ai = no
+					tag = MAN
+				}
+				AND = {
+					ai = no
+					tag = LUC
+				}
+				AND = {
+					ai = no
+					tag = BAV
+				}
+				AND = {
+					ai = no
+					tag = SLZ
+				}
+				AND = {
+					ai = no
+					tag = AUG
+				}
+				AND = {
+					ai = no
+					tag = MEM
+				}
+				AND = {
+					ai = no
+					tag = RVA
+				}
+				AND = {
+					ai = no
+					tag = ULM
+				}
+				AND = { 
+					ai = no
+					tag = WUR
+				}
+				AND = {
+					ai = no
+					tag = BAD
+				}
+				AND = {
+					ai = no
+					tag = ALS
+				}
+				AND = { 
+					ai = no
+					tag = SWI
+				}
+				AND = {
+					ai = no
+					tag = LOR
+				}
+				AND = {
+					ai = no
+					tag = LIE
+				}
+				AND = {
+					ai = no
+					tag = FLA
+				}
+				AND = {
+					ai = no
+					tag = BRB
+				}
+				AND = {
+					ai = no
+					tag = HOL
+				}
+				AND = {
+					ai = no
+					tag = UTR
+				}
+				AND = {
+					ai = no
+					tag = GEL
+				}
+				AND = {
+					ai = no
+					tag = FRI
+				}
+				AND = {
+					ai = no
+					tag = MUN
+				}
+				AND = {
+					ai = no
+					tag = KLE
+				}
+				AND = {
+					ai = no
+					tag = AAC
+				}
+				AND = {
+					ai = no
+					tag = TRI
+				}
+				AND = {
+					ai = no
+					tag = NSA
+				}
+				AND = {
+					ai = no
+					tag = PAL
+				}
+				AND = {
+					ai = no
+					tag = MAI
+				}
+				AND = {
+					ai = no
+					tag = FRN
+				}
+				AND = {
+					ai = no
+					tag = HES
+				}
+				AND = {
+					ai = no
+					tag = KOL
+				}
+				AND = {
+					ai = no
+					tag = BRU
+				}
+				AND = {
+					ai = no
+					tag = EFR
+				}
+				AND = {
+					ai = no
+					tag = OLD
+				}
+				AND = {
+					ai = no
+					tag = BRE
+				}
+				AND = {
+					ai = no 
+					tag = VER
+				}
+				AND = {
+					ai = no 
+					tag = HAM
+				}
+				AND = {
+					ai = no
+					tag = LUN
+				}
+				AND = {
+					ai = no
+					tag = LAU
+				}
+				AND = {
+					ai = no
+					tag = HSA
+				}
+				AND = { 
+					ai = no
+					tag = MKL
+				}
+				AND = {
+					ai = no
+					tag = BRA
+				}
+				AND = {
+					ai = no
+					tag = POM
+				}
+				AND = {
+					ai = no
+					tag = MAG
+				}
+				AND = {
+					ai = no
+					tag = ANH
+				}
+				AND = {
+					ai = no
+					tag = SAX
+				}
+				AND = {
+					ai = no
+					tag = BOH
+				}
+				AND = {
+					ai = no
+					tag = HUN
+				}
+				AND = {
+					ai = no
+					tag = WBG
+				}
+				AND = {
+					ai = no
+					tag = ANS
+				}
+				AND = {
+					ai = no
+					tag = NUM
+				}
+				AND = {
+					ai = no
+					tag = SIL
+				}
+				AND = {
+					ai = no
+					tag = TEU
+				}
+				AND = {
+					ai = no
+					tag = SER
+				}
+				AND = {
+					ai = no
+					tag = BOS
+				}
+				AND = {
+					ai = no
+					tag = ALB
+				}
+				AND = {
+					ai = no
+					tag = RAG
+				}
+				AND = {
+					ai = no
+					tag = ATH
+				}
+				AND = {
+					ai = no 
+					tag = KNI
+				}
+				AND = {
+					ai = no
+					tag = CYP
+				}
+				AND = {
+					ai = no
+					tag = SWE
+				}
+				AND = {
+					ai = no
+					tag = NOR
+				}
+				AND = {
+					ai = no
+					tag = DEN
+				}
+				AND = {
+					ai = no
+					tag = CAS
+				}
+				AND = {
+					ai = no
+					tag = ARA
+				}
+				AND = {
+					ai = no
+					tag = POR
+				}
+				AND = {
+					ai = no
+					tag = NAV
+				}
+				AND = {
+					ai = no
+					tag = ENG
+				}
+				AND = {
+					ai = no
+					tag = SCO
+				}
+				AND = {
+					ai = no
+					tag = LEI
+				}
+				AND = {
+					ai = no
+					tag = ORD
+				}
+				AND = {
+					ai = no
+					tag = DMS
+				}
+				AND = {
+					ai = no
+					tag = MCM
+				}
+				AND = {
+					ai = no
+					tag = MNS
+				}
+				AND = {
+					ai = no
+					tag = CNN
+				}
+				AND = {
+					ai = no
+					tag = FLY
+				}
+				AND = {
+					ai = no
+					tag = KID
+				}
+				AND = {
+					ai = no
+					tag = SLN
+				}
+				AND = {
+					ai = no
+					tag = TYR
+				}
+				AND = {
+					ai = no
+					tag = TRY
+				}
+				AND = {
+					ai = no
+					tag = ULS
+				}
+				AND = { 
+					ai = no
+					tag = WAL
+				}
+				AND = {
+					ai = no
+					tag = RMN
+				}
+				AND = {
+					ai = no 
+					tag = ITA
+				}
+				AND = {
+					ai = no
+					tag = SPA
+				}
+				AND = {
+					ai = no
+					tag = GBR
+				}
+				AND = {
+					ai = no
+					tag = MOL
+				}
+				AND = {
+					ai = no
+					tag = NAP
+				}
+				AND = {
+					ai = no
+					tag = SIC
+				}
+				AND = {
+					ai = no
+					tag = PRU
+				}
+				AND = {
+					ai = no
+					tag = SCA
+				}
+			}
+			OR = {
+				current_age = age_of_discovery
+				current_age = age_of_reformation
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 364 #Gazzah
+				province_id = 379 #Jerusalem
+				province_id = 1854 #Jaffa
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 364 #Gazzah
+			owns_core_province = 379 #Jerusalem
+			owns_core_province = 1854 #Jaffa
+			379 = {
+				is_state = yes
+			}
+		}
+		effect = {
+			add_prestige = 25
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 364
+						province_id = 1854
+						province_id = 379
+						province_id = 4268 #Aqaba
+					}
+				}
+				add_core = KOJ
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							NOT = { tag = KNI }
+							NOT = { tag = CYP }
+							NOT = { tag = PRO }
+							NOT = { tag = ATH }
+						}
+						was_never_end_game_tag_trigger = no
+					}
+				}
+				release = KOJ
+				KOJ = { change_primary_culture = ROOT }
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = KNI
+						tag = CYP
+						tag = PRO
+					}
+					was_never_end_game_tag_trigger = yes
+				}
+				change_tag = KOJ
+				if = {
+					limit = { has_custom_ideas = no }
+					country_event = { id = ideagroups.1 } #Swap Ideas
+				}
+			}
+			if = {
+				limit = { tag = KNI }
+				set_country_flag = knights_formed_jerusalem
+			}
+			KOJ = {
+				set_capital = 379 #Jerusalem
+				change_religion = catholic
+				if = {
+					limit = {
+						NOT = { government = monarchy }
+					}
+					change_government = monarchy
+					set_legacy_government = feudal_monarchy
+				}
+				if = {
+					limit = {
+						NOT = { government_rank = 2 }
+					}
+					set_government_rank = 2
+				}
+				set_country_flag = formed_jerusalem
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

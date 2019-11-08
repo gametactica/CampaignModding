@@ -1,0 +1,67 @@
+
+	graphical_culture = westerngfx
+
+	color = { 0 51 204 }
+
+	historical_idea_groups = {
+		defensive_ideas
+		offensive_ideas
+		religious_ideas
+		economic_ideas
+		diplomatic_ideas
+		innovativeness_ideas
+		spy_ideas
+		trade_ideas
+	}
+
+	historical_units = {
+		bardiche_infantry
+		druzhina_cavalry
+		slavic_stradioti
+		eastern_militia
+		muscovite_musketeer
+		muscovite_caracolle
+		muscovite_soldaty
+		muscovite_cossack
+		russian_petrine
+		russian_lancer
+		russian_green_coat
+		russian_cuirassier
+		eastern_skirmisher
+		eastern_uhlan
+		eastern_carabinier
+		russian_mass
+	}
+
+
+
+leader_names = { 
+	Adamian Adomian
+	Aghajanian Altounyan 
+	Apkarian Bagian
+	Babaian Babikian
+	Chobanian Bhobanyan
+	Damadian Eskandarian
+	Kapikian Kazanjian Kebabian
+	Kevorkian Khachikyan
+	Khatchaturian Kirlian
+	Mergelyan Orbeli
+	Pogosyan Sadian Simjian 
+	Sevanian Meymarian Shahinian
+}
+
+ship_names = {
+	Aramu Argishtis Ararat Ani Artsakh
+	Dvin
+	Erimena
+	Haik Haldi
+	Ishpuinis
+	Kars
+	Lutipri
+	Musasir Menuas Manzikert
+	Parisos
+	"Rusas II"
+	Siwini Selardi "Sarduri I" "Sarduris II"
+	Vaspurakan
+	Yerevan
+}

@@ -1,0 +1,6 @@
+# Crusader States
+X01 = "countries/Edessa.txt"
+X02 = "countries/Antioch.txt"
+X03 = "countries/Tripoli.txt"
+
+

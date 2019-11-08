@@ -1,0 +1,50 @@
+Exploitation = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = hostile0
+		has_idea_group = economic_ideas
+	}
+		
+	allow = {
+		full_idea_group = hostile0
+		full_idea_group = economic_ideas
+	}
+	
+	production_efficiency = 0.25
+	innovativeness_gain = -1
+}
+		
+Corsairs = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = hostile0
+		has_idea_group = naval_ideas
+	}
+		
+	allow = {
+		full_idea_group = hostile0
+		full_idea_group = naval_ideas
+	}
+	
+	privateer_efficiency = 0.5
+	diplomatic_upkeep = -1
+}
+
+Decimate = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = hostile0
+		has_idea_group = administrative_ideas
+	}
+		
+	allow = {
+		full_idea_group = hostile0
+		full_idea_group = administrative_ideas
+	}
+	
+	discipline = 0.05
+	ae_impact = 0.1
+}
